@@ -103,12 +103,12 @@ break;
 default:break;
 }
 }
+
 if (mousePressedOver(bin)) {
   paint.destroyEach();
 }
 drawSprites();
 }
-
 // -----
     try { window.draw = draw; } catch (e) {}
     switch (stage) {
